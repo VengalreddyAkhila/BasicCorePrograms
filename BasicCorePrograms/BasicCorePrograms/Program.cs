@@ -21,6 +21,10 @@ namespace BasicCorePrograms
                     PrimeFactors primefactors = new PrimeFactors();
                     primefactors.Factors();
                     break;
+                case 3:
+                    Leapyear leapyear = new Leapyear();
+                    leapyear.Leapyr();
+                    break;
             }
         }
     }
