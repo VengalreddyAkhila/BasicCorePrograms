@@ -37,9 +37,18 @@ namespace BasicCorePrograms
                     EvenOrOdd evenorodd = new EvenOrOdd();
                     evenorodd.EvenOdd();
                     break;
+    
                 case 7:
                     VowelOrConsonant vowelorconsonant = new VowelOrConsonant();
                     vowelorconsonant.VowelConst();
+                    break;
+                case 8:
+                    LargestNum largestnum = new LargestNum();
+                    largestnum.LargestNumber();
+                    break;
+                case 9:
+                    QuotientRem quotientrem = new QuotientRem();
+                    quotientrem.QuotientRemainder();
                     break;
             }
         }

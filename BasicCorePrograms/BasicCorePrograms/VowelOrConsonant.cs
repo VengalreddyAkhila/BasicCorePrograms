@@ -13,16 +13,15 @@ namespace BasicCorePrograms
             Console.WriteLine("Enter any Alphabet: ");
             ch = Convert.ToChar(Console.ReadLine());
 
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+            if ((ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'))
             {
-                Console.WriteLine(" is Vowel" );
+                Console.WriteLine(" is Vowel");
             }
-            else if ((ch >= 'a' && ch <= 'z') && (ch >= 'A' && ch <= 'Z'))
+            else 
             {
-                Console.WriteLine(" is Consonant" );
-                Console.ReadLine();
+                Console.WriteLine(" is Consonant");
+              //  Console.ReadLine();
             }
-            
         }
     }
 }
