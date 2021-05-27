@@ -25,6 +25,22 @@ namespace BasicCorePrograms
                     Leapyear leapyear = new Leapyear();
                     leapyear.Leapyr();
                     break;
+                case 4:
+                    PowerOf2 powerof2 = new PowerOf2();
+                    powerof2.Power();
+                    break;
+                case 5:
+                    Swap swap = new Swap();
+                    swap.SwapNumber();
+                    break;
+                case 6:
+                    EvenOrOdd evenorodd = new EvenOrOdd();
+                    evenorodd.EvenOdd();
+                    break;
+                case 7:
+                    VowelOrConsonant vowelorconsonant = new VowelOrConsonant();
+                    vowelorconsonant.VowelConst();
+                    break;
             }
         }
     }

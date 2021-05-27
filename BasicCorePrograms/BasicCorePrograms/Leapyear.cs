@@ -10,7 +10,7 @@ namespace BasicCorePrograms
         public void Leapyr()
         {
             Console.WriteLine("Enter the year");
-            int year = int.Parse(Console.ReadLine());
+            year = int.Parse(Console.ReadLine());
             if ((year % 400 == 0) && (year % 100 == 0) && (year % 4 == 0))
                 Console.WriteLine("Is a leap year" + year);
             else
