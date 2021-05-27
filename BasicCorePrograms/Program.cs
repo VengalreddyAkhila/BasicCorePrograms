@@ -7,6 +7,8 @@ namespace BasicCorePrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Programs");
+            PrimeFactors primefactors = new PrimeFactors();
+            primefactors.Factors();
         }
     }
 }
