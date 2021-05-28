@@ -8,19 +8,20 @@ namespace BasicCorePrograms
     {
         public void VowelConst()
         {
-            char ch;
+            Console.WriteLine("Enter any Alphabet: ");
+            char Check = Convert.ToChar(Console.ReadLine());
+
+           Check = char.ToLower(Check);
 
             Console.WriteLine("Enter any Alphabet: ");
-            ch = Convert.ToChar(Console.ReadLine());
-
-            if ((ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'))
+            
+            if (Check  == 'a' || Check == 'e' || Check  == 'i' || Check  == 'o' || Check == 'u')
             {
-                Console.WriteLine(" is Vowel");
+                Console.WriteLine(Check+ " is Vowel");
             }
             else 
             {
-                Console.WriteLine(" is Consonant");
-              //  Console.ReadLine();
+                Console.WriteLine(Check+ " is Consonant");
             }
         }
     }

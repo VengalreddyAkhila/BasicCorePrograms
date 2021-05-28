@@ -16,6 +16,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Press 7. for VowelorConsonant");
             Console.WriteLine("Press 8. for LargestNumber");
             Console.WriteLine("Press 9. for QuotientAndRemainder");
+            Console.WriteLine("Press 9. for Harmonic Number");
             Console.WriteLine("Enter a choice : ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -57,6 +58,10 @@ namespace BasicCorePrograms
                 case 9:
                     QuotientRem quotientrem = new QuotientRem();
                     quotientrem.QuotientRemainder();
+                    break;
+                case 10:
+                    Harmonic harmonic = new Harmonic();
+                    harmonic.HarmonicNumber();
                     break;
                 default:
                     Console.WriteLine("Invalid choice");
