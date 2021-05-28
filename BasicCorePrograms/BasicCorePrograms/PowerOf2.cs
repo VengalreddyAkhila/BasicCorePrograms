@@ -8,15 +8,18 @@ namespace BasicCorePrograms
     {
         public void Power()
         { 
-        double m, n;
-        Console.WriteLine("Enter the Number : ");  
-        m = double.Parse(Console.ReadLine());
-        Console.WriteLine("Give the Exponent : ");
-        n = double.Parse(Console.ReadLine());
-        double value = Math.Pow(m, n);
+               double m, n;
+              Console.WriteLine("Enter the Number : ");  
+                m = double.Parse(Console.ReadLine());
+                Console.WriteLine("Give the Exponent : ");
+                n = double.Parse(Console.ReadLine());
+               double value = Math.Pow(m, n);
             if (m % 2 == 0)
-        Console.WriteLine("Result :", value);  
-        Console.ReadLine();  
+            {
+                Console.WriteLine("Result :", value);
+                Console.ReadLine();
+            }
+            
         }
     }
 }
