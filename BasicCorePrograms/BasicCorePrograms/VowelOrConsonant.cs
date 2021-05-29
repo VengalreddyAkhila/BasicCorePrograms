@@ -13,7 +13,7 @@ namespace BasicCorePrograms
 
            Check = char.ToLower(Check);
 
-            Console.WriteLine("Enter any Alphabet: ");
+            //Console.WriteLine("Enter any Alphabet: ");
             
             if (Check  == 'a' || Check == 'e' || Check  == 'i' || Check  == 'o' || Check == 'u')
             {

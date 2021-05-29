@@ -16,7 +16,7 @@ namespace BasicCorePrograms
             for (int coin = 0; coin <= Number; coin++)
             {
                 Random random = new Random();
-                double Coin = random.NextDouble();
+                double Coin = random.NextDouble(0,2);
                 if (Coin < 0.5)
                     tails++;
                 else
