@@ -7,6 +7,15 @@ namespace BasicCorePrograms
         static void Main(string[] arg)
         {
             Console.WriteLine("Welcome to basic core programs");
+            Console.WriteLine("press 1 for flipcoin");
+            Console.WriteLine("press 2 for primefactors");
+            Console.WriteLine("press 3 for leapyear");
+            Console.WriteLine("press 4 for powerof2");
+            Console.WriteLine("press 5 for swap");
+            Console.WriteLine("press 6 for evenorodd");
+            Console.WriteLine("press 7 for vowelorconsonant");
+            Console.WriteLine("press 8 for largestnumber");
+            Console.WriteLine("press 9 for quotientremainder");            
 
             Console.WriteLine("Enter a choice : ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -49,6 +58,9 @@ namespace BasicCorePrograms
                 case 9:
                     QuotientRem quotientrem = new QuotientRem();
                     quotientrem.QuotientRemainder();
+                    break;
+                default:
+                    Console.WriteLine("invalid choice");
                     break;
             }
         }
